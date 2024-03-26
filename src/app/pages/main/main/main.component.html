@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="row mt-5 justify-content-center">
+    <div class="col-8 px-5">
+      <app-photo></app-photo>
+      <app-card></app-card>
+    </div>
+    <div class="col-4 px-4">
+      <div class="right align-items-center">
+        <div class="photo">
+          <div class="user-border-wrap">
+            <div class="user"></div>
+          </div>
+        </div>
+        <div class="header">
+          <div class=""></div>
+          <div class="account" [routerLink]="'./'+userinfo.account">{{userinfo.account}}</div>
+          <div class="subtitle">{{userinfo.name}}</div>
+        </div>
+        <div class="switch align-items-center ml-auto justify-content-end">
+          切換
+        </div>
+      </div>
+      <div class="mt-2 w-100 d-flex justify-content-between">
+        <span class="suggestion">為您推薦</span>
+        <a class="following" routerLink="/following">查看全部</a>
+      </div>
+      <div class="mt-2">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>andy850913 + 其他 16 人的追蹤對象</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>andy850913 + 其他 16 人的追蹤對象</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>andy850913 + 其他 16 人的追蹤對象</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>andy850913 + 其他 16 人的追蹤對象</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>andy850913 + 其他 16 人的追蹤對象</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>andy850913 + 其他 16 人的追蹤對象</mat-card-subtitle>
+        </mat-card-header>
+      </div>
+    </div>
+  </div>
+</div>

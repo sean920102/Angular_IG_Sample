@@ -1,0 +1,83 @@
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.right{
+  display: flex;
+  height: 70px;
+  width: 100%;
+  >.header{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  >.switch{
+    font-size: 16px;
+    font-weight: 1000;
+    display: flex;
+    height: 100%;
+    width:50px;
+  }
+  >.photo{
+    width:60px;
+    padding:0;
+    text-align: center;
+    margin-right: 20px;
+    >.user-border-wrap {
+      max-width: 70px;
+      padding: 0.5rem;
+      position: relative;
+      border-radius: 200px;
+      background:
+        linear-gradient(0deg, rgba(64, 93, 230, 1), transparent 75%),
+        linear-gradient(120deg, rgba(225, 48, 108, 1), transparent),
+        linear-gradient(240deg, rgb(252, 175, 69, 1), transparent);
+      padding: 4px;
+      >.user {
+        border-radius: 100px;
+        background: #222;
+        color: white;
+        padding: 1.6rem;
+      }
+    }
+  }
+}
+.suggestion{
+  font-weight: 800;
+  font-size: 16px;
+}
+.account{
+  font-weight: 600; 
+  cursor: pointer;
+}
+.following{
+  font-size: 16px;
+  font-weight: 1000;
+  text-decoration: none;
+}
+@keyframes gradient {
+  0% {
+      background-position: 50% 50%;
+      background-size: 100% 100%;
+  }
+
+  25% {
+      background-position: 0% 0%;
+      background-size: 200% 200%;
+  }
+
+  50% {
+      background-position: 0% 50%;
+      background-size: 200% 200%;
+  }
+
+  75% {
+      background-position: 100% 0%;
+      background-size: 200% 200%;
+  }
+
+  100% {
+      background-position: 50% 50%;
+      background-size: 100% 100%;
+  }
+}

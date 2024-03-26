@@ -1,0 +1,60 @@
+.wrapper{
+  display: flex;
+  height: 70px;
+  width: 100%;
+  >.left{
+    display: flex;
+    flex-grow: 1;
+    >.photo{
+      width:60px;
+      padding:0;
+      text-align: center;
+      margin-right: 20px;
+      >.user-border-wrap {
+        max-width: 70px;
+        padding: 0.5rem;
+        position: relative;
+        border-radius: 200px;
+        background:
+          linear-gradient(0deg, rgba(64, 93, 230, 1), transparent 75%),
+          linear-gradient(120deg, rgba(225, 48, 108, 1), transparent),
+          linear-gradient(240deg, rgb(252, 175, 69, 1), transparent);
+        padding: 4px;
+        >.user {
+          border-radius: 100px;
+          background: #222;
+          color: white;
+          padding: 1.6rem;
+        }
+      }
+    }
+    >.header{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      >.title{
+        font-weight: 600;
+        font-size: 15px;
+      }
+      >.subtitle{
+        color: var(--gray-600);
+      }
+    }
+  }
+  >.right{
+    font-size: 16px;
+    font-weight: 1000;
+    width:50px;
+  }
+  
+}
+.btnFollow{
+  color:var(--white);
+  background-color:var(--ig-primary-button);
+  font-size: 15px;
+  border-radius: 10px;
+}
+.suggestion{
+  font-size: 17px;
+  font-weight: 600;
+}

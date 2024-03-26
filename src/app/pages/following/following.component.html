@@ -1,0 +1,24 @@
+<div class="row justify-content-center mt-5">
+  <div class="col-5">
+    <div class="suggestion mb-4">建議</div>
+    <ng-container *ngFor="let item of suggestion">
+      <div class="wrapper align-items-center mb-2">
+        <div class="left">
+          <div class="photo">
+            <div class="user-border-wrap">
+              <div class="user"></div>
+            </div>
+          </div>
+          <div class="header">
+            <div class="title">{{item.account}}</div>
+            <div class="subtitle">{{item.name}}</div>
+            <div class="subtitle">andy850913 + 其他 16 人的追蹤對象</div>
+          </div>
+        </div>
+        <div class="right">
+          <button mat-raised-button class="btnFollow">追蹤</button>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

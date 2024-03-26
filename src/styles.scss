@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+:root {
+  --color-darkmode-main: white;
+  --color-darkmode-value: #c0ff00;
+  --white: #FCFAF2;
+  --white-100: #ffffff;
+
+  --black: #434343;
+  --black-100: #252525;
+
+  --primary-color: #7fad39;
+  --normal-color: #1c1c1c;
+
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+
+  --red: #ed2f6a;
+  --green: #426B1F;
+  --blue: #0091ff;
+  --yellow: #f9bd10;
+  --purple: #4630b0;
+  --ig-primary-button: rgb(0, 149, 246);
+  --content:#FAFAF5;
+  --black-opacity-90: #43434390;
+
+  --border: #ebebeb;
+  --border-100: #e1e1e1;
+
+  --background: #f5f5f5;
+  --para-color: #6f6f6f;
+  --red-opacity-70: #DF285770;
+  --red-opacity-30: #DF285730;
+}
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: var(--black);
+    font-size: 16px;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.color-main{
+  color: var(--green) !important;
+}
+.bg-main{
+  color: var(--green) !important;
+}
+.text-1{
+  font-size: 1.5rem;
+}
+.text-2{
+  font-size: 2rem;
+}
+.text-3{
+  font-size: 2.5rem;
+}
+.text-4{
+  font-size: 3rem;
+  
+}
+.mat-dialog-container{
+  background-color: var(--white-100) !important;
+  overflow: hidden !important;
+}
+.leftWrapper{
+  .mat-list-item-content{
+    padding: 0 !important;
+  }
+}

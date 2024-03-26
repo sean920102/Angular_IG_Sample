@@ -1,0 +1,81 @@
+<div class="leftWrapper">
+  <div class="grow-1 ">
+    <mat-list role="list">
+      <mat-list-item class="logo-box" role="listitem">
+        <div class="logo-box">
+          <img
+            class="logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"
+            alt="Instagram"
+          />
+        </div>
+      </mat-list-item>
+      <mat-list-item role="listitem">
+        <button mat-button class="link" routerLink="/home">
+          <div class="d-inline">
+            <i class="fa-solid fa-house icon"></i>
+            <span>&emsp;首頁</span>
+          </div>
+        </button>
+      </mat-list-item>
+      <mat-list-item role="listitem">
+        <button mat-button class="link" routerLink="/expore">
+          <div class="d-inline">
+            <i class="fa-solid fa-magnifying-glass icon"></i>
+            <span>&emsp;搜尋</span>
+          </div>
+        </button>
+      </mat-list-item>
+      <mat-list-item role="listitem">
+        <button mat-button class="link" routerLink="/message">
+          <div class="d-inline">
+            <i class="fa-regular fa-compass icon"></i>
+            <span>&emsp;探索</span>
+          </div>
+        </button>
+      </mat-list-item>
+      <mat-list-item role="listitem">
+        <button mat-button class="link" routerLink="/homepage">
+          <div class="d-inline">
+            <i class="fa-solid fa-clapperboard icon"></i>
+            <span>&emsp;連續短片</span>
+          </div>
+        </button>
+      </mat-list-item>
+      <mat-list-item role="listitem">
+        <button mat-button class="link" routerLink="/homepage">
+          <div class="d-inline">
+            <i class="fa-regular fa-comment icon"></i>
+            <span>&emsp;訊息</span>
+          </div>
+        </button>
+      </mat-list-item>
+      <mat-list-item role="listitem">
+        <button mat-button class="link" routerLink="/homepage">
+          <div class="d-inline">
+            <i class="fa-regular fa-heart icon"></i>
+            <span>&emsp;通知</span>
+          </div>
+        </button>
+      </mat-list-item>
+      <mat-list-item role="listitem">
+        <button mat-button class="link" routerLink="/homepage">
+          <div class="d-inline">
+            <i class="fa-regular fa-square-plus icon"></i>
+            <span>&emsp;建立</span>
+          </div>
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+  <div class="footer">
+    <button mat-button class="bottom-button" [matMenuTriggerFor]="aboveMenu">
+      <i class="fa-solid fa-bars icon"></i>
+      <span>&emsp;更多</span>
+    </button>
+    <mat-menu #aboveMenu="matMenu" yPosition="above">
+      <button mat-menu-item (click)="logout()">登出</button>
+    </mat-menu>
+  </div>
+</div>
+

@@ -1,0 +1,50 @@
+.head{
+  width:70px;
+  padding:0;
+  text-align: center;
+  margin-left: 20px;
+  >.user-border-wrap {
+    max-width: 70px;
+    padding: 1rem;
+    position: relative;
+    border-radius: 100px;
+    background:
+      linear-gradient(0deg, rgba(64, 93, 230, 1), transparent 75%),
+      linear-gradient(120deg, rgba(225, 48, 108, 1), transparent),
+      linear-gradient(240deg, rgb(252, 175, 69, 1), transparent);
+    padding: 3px;
+    >.user {
+      border-radius: 100px;
+      background: #222;
+      color: white;
+      padding: 2rem;
+    }
+  }
+
+}
+@keyframes gradient {
+  0% {
+      background-position: 50% 50%;
+      background-size: 100% 100%;
+  }
+
+  25% {
+      background-position: 0% 0%;
+      background-size: 200% 200%;
+  }
+
+  50% {
+      background-position: 0% 50%;
+      background-size: 200% 200%;
+  }
+
+  75% {
+      background-position: 100% 0%;
+      background-size: 200% 200%;
+  }
+
+  100% {
+      background-position: 50% 50%;
+      background-size: 100% 100%;
+  }
+}
